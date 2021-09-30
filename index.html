@@ -1,75 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Darkmode con Javascript</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet"> 
-	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="css/estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página card</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/dark.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
 </head>
-<body>
-	<div class="contenedor">
-		<nav>
-			<a class="logotipo" href="#">Logotipo</a>
-			<div class="enlaces">
-				<a href="#">Inicio</a>
-				<a href="#">Galeria</a>
-				<a href="#">Contacto</a>
-				<button class="switch" id="switch">
-					<span><i class="fas fa-sun"></i></span>
-					<span><i class="fas fa-moon"></i></span>
-				</button>
-			</div>
-		</nav>
 
-		<section class="grid">
-			<div class="card">
-				<img src="img/1.png" alt="">
-				<div class="botones">
-					<a href="#" class="boton primario">Comprar</a>
-					<a href="#" class="boton secundario">Ver más</a>
-				</div>
-			</div>
-			<div class="card">
-				<img src="img/2.png" alt="">
-				<div class="botones">
-					<a href="#" class="boton primario">Comprar</a>
-					<a href="#" class="boton secundario">Ver más</a>
-				</div>
-			</div>
-			<div class="card">
-				<img src="img/3.png" alt="">
-				<div class="botones">
-					<a href="#" class="boton primario">Comprar</a>
-					<a href="#" class="boton secundario">Ver más</a>
-				</div>
-			</div>
-			<div class="card">
-				<img src="img/4.png" alt="">
-				<div class="botones">
-					<a href="#" class="boton primario">Comprar</a>
-					<a href="#" class="boton secundario">Ver más</a>
-				</div>
-			</div>
-			<div class="card">
-				<img src="img/5.png" alt="">
-				<div class="botones">
-					<a href="#" class="boton primario">Comprar</a>
-					<a href="#" class="boton secundario">Ver más</a>
-				</div>
-			</div>
-			<div class="card">
-				<img src="img/6.png" alt="">
-				<div class="botones">
-					<a href="#" class="boton primario">Comprar</a>
-					<a href="#" class="boton secundario">Ver más</a>
-				</div>
-			</div>
-		</section>
-	</div>
+<body class="">
 
-	<script src="js/main.js"></script>
+    <h1>Nuestro equipo de expertos</h1>
+    <p class="descripcion">Lorem Ipsum es simplemente texto de relleno de la industria de la impresión y la composición
+        tipográfica</p>
+
+    <div class="modo" id="modo">
+        <i class="fas fa-toggle-on"></i>
+    </div>
+
+    <section class="card">
+        <div class="card__perfil">
+            <div class="card__nombre">
+                <img src="https://www.markuptag.com/images/user-img-1.jpg" alt="">
+                <h2>Rajnish Kumar</h2>
+                <p>Diseñador web</p>
+            </div>
+            <hr>
+            <div class="card__descripcion">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolores perferendis rem ipsam
+                    veniam reiciendis eveniet optio eum velit, dignissimos asperiores fugit molestias ipsum temporibus
+                    rerum hic iste nulla vitae?</p>
+            </div>
+            <hr>
+            <div class="card__button">
+                <a class="enlace" href="#">Saber más</a>
+            </div>
+        </div>
+        <div class="card__perfil">
+            <div class="card__nombre">
+                <img src="https://www.markuptag.com/images/user-img-2.jpg" alt="">
+                <h2>Satyam Tiwari</h2>
+                <p>Desarrollador web</p>
+            </div>
+            <hr>
+            <div class="card__descripcion">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolores perferendis rem ipsam
+                    veniam reiciendis eveniet optio eum velit, dignissimos asperiores fugit molestias ipsum temporibus
+                    rerum hic iste nulla vitae?</p>
+            </div>
+            <hr>
+            <div class="card__button">
+                <a class="enlace" href="#">Saber más</a>
+            </div>
+        </div>
+        <div class="card__perfil">
+            <div class="card__nombre">
+                <img src="https://www.markuptag.com/images/user-img-3.jpg" alt="">
+                <h2>Salim Malik</h2>
+                <p>Desarrollador front-end</p>
+            </div>
+            <hr>
+            <div class="card__descripcion">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolores perferendis rem ipsam
+                    veniam reiciendis eveniet optio eum velit, dignissimos asperiores fugit molestias ipsum temporibus
+                    rerum hic iste nulla vitae?</p>
+            </div>
+            <hr>
+            <div class="card__button">
+                <a class="enlace" href="#">Saber más</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>

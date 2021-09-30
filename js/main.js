@@ -1,22 +1,15 @@
-const btnSwitch = document.querySelector('#switch');
+let modo=document.getElementById("modo");
+let body=document.body;
 
-btnSwitch.addEventListener('click', () => {
-	document.body.classList.toggle('dark');
-	btnSwitch.classList.toggle('active');
+modo.addEventListener("click", function(){
+    let val=body.classList.toggle("dark")
+    localStorage.setItem("modo",val)
+})
 
-	// Guardamos el modo en localstorage.
-	if(document.body.classList.contains('dark')){
-		localStorage.setItem('dark-mode', 'true');
-	} else {
-		localStorage.setItem('dark-mode', 'false');
-	}
-});
+let valor=localStorage.getItem("modo")
 
-// Obtenemos el modo actual.
-if(localStorage.getItem('dark-mode') === 'true'){
-	document.body.classList.add('dark');
-	btnSwitch.classList.add('active');
+if (valor=="true") {
+    body.classList.add("dark")
 } else {
-	document.body.classList.remove('dark');
-	btnSwitch.classList.remove('active');
+    body.classList.remove("dark")
 }

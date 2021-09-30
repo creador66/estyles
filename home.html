@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>responsive movie website</title>
+</head>
+<body>
+    <header>
+      <div class="burgerMenu" onclick="myFunction()"><i class="fas fa-bars"></i></div>
+      
+    
+        <section>
+
+      
+        <div class="logo">
+            <a href="index.html">HELLO movies</a>
+        </div>
+        <div class="nav">
+            <a href="home.html">home</a>
+            <a class="genr" href="">genres</a>
+            <a href="">countrey</a>
+            <a href="">featured</a>
+            <a href="">movies</a>
+            <a href="">tv-series</a>
+            <a href="">top IMDB</a>
+            <a href="">a-z list</a>
+            <a href="">reqeust</a>
+        </div>
+        </section>
+        <div class="searchItem">
+            <div class="search">
+                <input type="text" placeholder="type to search">
+                <i class="fas fa-search"></i>
+            </div>
+            <button class="btn">login</button>
+      
+    </div>
+    </header>
+    <div class="sliderBottom">
+
+   
+    <div class="sliderItem">
+    <div class="slider">
+        
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="mandalorian.jfif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="avenger.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="witcher.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="radhe.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+     </div>
+          <div class="coming">
+
+<h2 class="comingSoonTitle">coming soon</h2>
+<div class="mit">
+<div class="scrollItem">
+<div class="thumbItem">
+  <img src="/movieimage/bloodshot.jpg" alt="">
+  <div class="thumbTitle">
+  <p class="MovieNameThumb"><a href="">bloodshot</a></p> 
+    <div class="thumbMovieDetails">
+      <p>generes: <a href="action.html">action</a>,<a href="action">adventure</a></p>
+    </div>
+    
+  </div>
+</div>
+</div>
+<div class="scrollItem">
+<div class="thumbItem">
+  <img src="balckwidowthumb.jpg" alt="">
+  <div class="thumbTitle">
+    <p class="MovieNameThumb"><a  href="">black Widow</a></p>
+    <div class="thumbMovieDetails">
+      <p>generes: <a href="action.html">action</a>,<a href="action">adventure</a>,<a href="action">Sci-Fi</a></p>
+    </div>
+    
+  </div>
+</div>
+</div>
+<div class="scrollItem">
+<div class="thumbItem">
+  <img src="/movieimage/black adam.jpg" alt="">
+  <div class="thumbTitle">
+    <p class="MovieNameThumb"><a  href="">black adam</a></p>
+    <div class="thumbMovieDetails">
+      <p>generes: <a href="action.html">action</a>,<a href="action">adventure</a>,<a href="action">Sci-Fi</a></p>
+    </div>
+    
+  </div>
+</div>
+</div>
+<div class="scrollItem">
+<div class="thumbItem">
+  <img src="/movieimage/loki.jpg" alt="">
+  <div class="thumbTitle">
+    <p class="MovieNameThumb"><a  href="">loki</a></p>
+    <div class="thumbMovieDetails">
+      <p>generes: <a href="action.html">action</a>,<a href="action">adventure</a>,<a href="action">Sci-Fi</a></p>
+    </div>
+    
+  </div>
+</div>
+</div>
+<div class="scrollItem">
+<div class="thumbItem">
+  <img src="/movieimage/thor love.jpg" alt="">
+  <div class="thumbTitle">
+    <p class="MovieNameThumb"><a  href="">thor love and thunder</a></p>
+    <div class="thumbMovieDetails">
+      <p>generes: <a href="action.html">action</a>,<a href="action">adventure</a>,<a href="action">Sci-Fi</a></p>
+    </div>
+    
+  </div>
+</div>
+</div>
+<div class="scrollItem">
+<div class="thumbItem">
+  <img src="/movieimage/wwoman.jpg" alt="">
+  <div class="thumbTitle">
+    <p class="MovieNameThumb"><a  href="">wonder woman</a></p>
+    <div class="thumbMovieDetails">
+      <p>generes: <a href="action.html">action</a>,<a href="action">adventure</a>,<a href="action">Sci-Fi</a></p>
+    </div>
+    
+  </div>
+</div>
+</div>
+ </div>
+  </div>
+</div>
+</div>
+
+<!--movie section start-->
+<div class="sugestionContainer">
+  <div class="sugetionList">
+    <span class="sugest">sugestion <i class="fas fa-greater-than"></i></span>
+    <span class="featured">featured Movies</span>
+    <a href="">top today</a>
+    <a href="">trending</a>
+  </div>
+ 
+</div>
+
+<!--movie list start-->
+<div class="movieContainer">
+  <div class="movieList">
+      <div class="movieItem">
+        <a href=""><img src="/movieimage/arrival.jpg" alt=""></a>
+          
+          <h4>arrival</h4>
+      </div>
+      <div class="movieItem">
+        <a href=""><img src="/movieimage/anabelle.jpg" alt=""></a>
+          <h4>anabelle</h4>
+    </div>
+    <div class="movieItem">
+      <a href=""><img src="/movieimage/balckwidowthumb.jpg" alt=""></a>
+        <h4>black widow</h4>
+  </div>
+  <div class="movieItem">
+    <a href=""><img src="/movieimage/lifemovie.jpg" alt=""></a>
+      <h4>lifemovie</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/movieimage/thumb1.jpg" alt=""></a>
+  
+  <h4>last full measure</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/movieimage/black adam.jpg" alt=""></a>
+    <h4>black adam</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/movieimage/jumanji.jpg" alt=""></a>
+    <h4>jumanji</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/movieimage/mulan.jpg" alt=""></a>
+    <h4>mulan</h4>
+</div>
+<div class="movieItem">
+  <a href=""> <img src="/movieimage/fallout.jpg" alt=""></a>
+   <h4>MI fall Out</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/movieimage/sherlock.jpg" alt=""></a>
+    <h4>sherlock holmes</h4>
+</div>
+<div class="movieItem">
+  <a href=""> <img src="/movieimage/no time to die.jpg" alt=""></a>
+   <h4>no time to die</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/movieimage/wwoman.jpg" alt=""></a>
+    <h4>wonder woman</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="movieimage/bloodshot.jpg" alt=""></a>
+    <h4>bloodshot</h4>
+</div>
+<div class="movieItem">
+  <img src="/movieimage/loki.jpg" alt="">
+  <h4>loki</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/movieimage/thor love.jpg" alt=""></a>
+   <h4>thor lova and thunder</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/movieimage/capmarvel.jpg" alt=""></a>
+    <h4>captain marvel</h4>
+</div>
+
+  </div>
+</div>
+<!--featured movie end -->\
+
+<!-- movie sugestion start -->
+<div class="sugestionContainer">
+  <div class="sugetionList">
+    <span class="sugest">MOVIES <i class="fas fa-greater-than"></i></span>
+    <span class="featured">all</span>
+    <a href="">action</a>
+    <a href="">comedy</a>
+    <a href="">horror</a>
+  </div>
+</div>
+
+<!-- movie list start -->
+<div class="movieContainer">
+  <div class="movieList">
+    <div class="movieItem">
+      <a href=""><img src="/movieimage/arrival.jpg" alt=""></a>
+        
+        <h4>arrival</h4>
+    </div>
+    <div class="movieItem">
+      <a href=""><img src="/movieimage/anabelle.jpg" alt=""></a>
+        <h4>anabelle</h4>
+  </div>
+  <div class="movieItem">
+    <a href=""><img src="/movieimage/balckwidowthumb.jpg" alt=""></a>
+      <h4>black widow</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/movieimage/lifemovie.jpg" alt=""></a>
+    <h4>lifemovie</h4>
+</div>
+<div class="movieItem">
+<a href=""><img src="/movieimage/thumb1.jpg" alt=""></a>
+
+<h4>last full measure</h4>
+</div>
+<div class="movieItem">
+<a href=""><img src="/movieimage/black adam.jpg" alt=""></a>
+  <h4>black adam</h4>
+</div>
+<div class="movieItem">
+<a href=""><img src="/movieimage/jumanji.jpg" alt=""></a>
+  <h4>jumanji</h4>
+</div>
+<div class="movieItem">
+<a href=""><img src="/movieimage/mulan.jpg" alt=""></a>
+  <h4>mulan</h4>
+</div>
+<div class="movieItem">
+<a href=""> <img src="/movieimage/fallout.jpg" alt=""></a>
+ <h4>MI fall Out</h4>
+</div>
+<div class="movieItem">
+<a href=""><img src="/movieimage/sherlock.jpg" alt=""></a>
+  <h4>sherlock holmes</h4>
+</div>
+<div class="movieItem">
+<a href=""> <img src="/movieimage/no time to die.jpg" alt=""></a>
+ <h4>no time to die</h4>
+</div>
+<div class="movieItem">
+<a href=""><img src="/movieimage/wwoman.jpg" alt=""></a>
+  <h4>wonder woman</h4>
+</div>
+<div class="movieItem">
+<a href=""><img src="movieimage/bloodshot.jpg" alt=""></a>
+  <h4>bloodshot</h4>
+</div>
+<div class="movieItem">
+<img src="/movieimage/loki.jpg" alt="">
+<h4>loki</h4>
+</div>
+<div class="movieItem">
+<a href=""><img src="/movieimage/thor love.jpg" alt=""></a>
+ <h4>thor lova and thunder</h4>
+</div>
+<div class="movieItem">
+<a href=""><img src="/movieimage/capmarvel.jpg" alt=""></a>
+  <h4>captain marvel</h4>
+</div>
+
+
+  </div>
+</div>
+
+
+<div class="sugestionContainer">
+  <div class="sugetionList">
+    <span class="sugest">TV series <i class="fas fa-greater-than"></i></span>
+    <span class="featured">all</span>
+    <a href="">united states</a>
+    <a href="">india</a>
+    <a href="">korea</a>
+  </div>
+</div>
+
+<div class="movieContainer">
+  <div class="movieList">
+    <div class="movieItem">
+      <a href=""><img src="/seriesimage/wanda.jpg" alt=""></a>
+       <h4>wanda vision</h4>
+  </div>
+  <div class="movieItem">
+    <a href=""><img src="/seriesimage/game.jpeg" alt=""></a>
+    <h4>game of thrones</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/seriesimage/gotham.jpg" alt=""></a>
+   <h4>gotham</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/seriesimage/haunting hill.jpg" alt=""></a>
+<h4>hunting hill</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/seriesimage/snowp.jpg" alt=""></a>
+<h4>snoepierce</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/seriesimage/vampire.jpg" alt=""></a>
+<h4>vampire diaries</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/seriesimage/watch.jpg" alt=""></a>
+<h4>the watch</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/seriesimage/vergin.jpg" alt=""></a>
+<h4>vergin river</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/seriesimage/sheldom.jpg" alt=""></a>
+<h4>youn sheldom</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/seriesimage/sahipli.jpg" alt=""></a>
+<h4>sahipli</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/seriesimage/fate.jpeg" alt=""></a>
+<h4>fate</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/seriesimage/batwoman.jpeg" alt=""></a>
+<h4>batwoman</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/seriesimage/never.jpg" alt=""></a>
+    <h4>never have i ever</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/seriesimage/mirzapur.jpg" alt=""></a>
+    <h4>mirzapur</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/seriesimage/legends.jpg" alt=""></a>
+    <h4>legends</h4>
+</div>
+<div class="movieItem">
+  <a href=""><img src="/seriesimage/star girl.jpg" alt=""></a>
+    <h4>star girl</h4>
+</div>
+
+  </div>
+</div>
+
+
+
+<footer>
+  <div class="footerLinkItem">
+
+    <div class="footerLinks">
+   <div class="links">
+   <p>hello movies</p>
+ <a href="">hello movies</a>
+  <a href="">TV series</a>
+  <a href="">hello movies</a>
+  <a href="">TV series</a>
+  <a href="">hello movies</a>
+  <a href="">TV series</a>
+</div>
+<div class="links">
+  <p>generes</p>
+  <a href="">hello movies</a>
+  <a href="">TV series</a>
+  <a href="">hello movies</a>
+  <a href="">TV series</a>
+  <a href="">hello movies</a>
+  <a href="">TV series</a>
+</div>
+
+<div class="links">
+  <p>countrey</p>
+  <a href="">Unites State</a>
+  <a href="">India</a>
+  <a href="">China</a>
+  <a href="">Korea</a>
+  <a href="">nepal</a>
+  <a href="">spain</a>
+</div>
+</div>
+
+    <div class="subscribe">
+      <h5>Subscribe</h5>
+<p class="sbsP">Subscribe to the Hellomovies.com mailing list to receive updates on movies, tv-series and news of top movies.</p>
+    <input class="emailInput" type="text" placeholder="Enter your Email">
+<button class="sbscribeBtn">Subscribe</button>
+  </div>
+    <div class="copyright">
+      <h2>HELLO movies</h2>
+      <p>Copyright © HELLOmovies.to. All Rights Reserved</p>
+      <p class="disclaim">Disclaimer: hellomovies.com is site does not store any files on its server.
+         All contents are provided by non-affiliated third parties.</p>
+    </div>
+  </div>
+ 
+
+</footer>
+<div id="myDIV" style="display: none;">
+  <div class="mystyle">
+      <a href="home.html">home</a>
+      <a href="">genres</a>
+      <a href="">countrey</a>
+      <a href="">featured</a>
+      <a href="">movies</a>
+      <a href="">tv-series</a>
+      <a href="">top IMDB</a>
+      <a href="">a-z list</a>
+      <a href="">reqeust</a>
+  </div>
+
+  </div>
+
+
+
+
+<!--javascript-->
+<script src="main.js"></script>
+</body>
+</html>

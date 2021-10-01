@@ -1,5 +1,4 @@
-*{
-    margin: 0;
+
 
 :root {
     --main-color: #c0392b;
@@ -609,6 +608,5 @@ footer .content {
         left: 0;
     }
 }
-
-
+}
 

@@ -1,5 +1,6 @@
 
 
+
 :root {
     --main-color: #c0392b;
     --body-bg: #ffffff;
@@ -7,7 +8,7 @@
     --text-color: #ffffff;
 
     --nav-height: 0px;
-    --space-top: 30px;
+    --space-top: 00px;
 }
 
 * {
@@ -165,7 +166,7 @@ a.movie-item:hover {
     height: 3px;
     border-radius: 0.5rem;
     background-color: var(--text-color);
-    transition: 0.4s;
+    transition: 0.4;
 }
 
 .hamburger::before,
@@ -608,5 +609,3 @@ footer .content {
         left: 0;
     }
 }
-}
-
